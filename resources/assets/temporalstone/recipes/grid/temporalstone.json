@@ -1,0 +1,10 @@
+{
+    "ingredientPattern": "_S_,SGS,_S_",
+    "ingredients": {
+        "G": { "type": "item", "code": "game:gear-temporal" },
+        "S": { "type": "item", "code": "game:stone-*" }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "temporalstone", "quantity": 4 }
+}

@@ -1,0 +1,8 @@
+{
+    "type": "code",
+    "modid": "temporalstone",
+    "name": "Temporal Stone",
+    "description": "A temporal stone is a single-use item that can be thrown to teleport to where it lands (like Ender Pearl from Minecraft).",
+    "authors": ["Craluminum2413"],
+    "version": "1.0.0"
+}

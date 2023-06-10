@@ -1,0 +1,31 @@
+{
+    "code": "temporalstone",
+    "class": "EntityTemporalStone",
+    "hitboxSize": { "x": 0.125, "y": 0.125 },
+    "client": {
+        "renderer": "Shape",
+        "shape": { "base": "game:item/stone" },
+        "textures": { "material": { "base": "game:item/resource/temporalgear" } },
+        "behaviors": [
+            {
+                "code": "passivephysics",
+                "groundDragFactor": 0.25,
+                "airDragFactor": 0.25,
+                "gravityFactor": 0.25
+            },
+            { "code": "interpolateposition" }
+        ]
+    },
+    "server": {
+        "behaviors": [
+            {
+                "code": "passivephysics",
+                "groundDragFactor": 0.25,
+                "airDragFactor": 0.25,
+                "gravityFactor": 0.25
+            },
+            { "code": "despawn", "minSeconds": 600 }
+        ]
+    },
+    "sounds": {}
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "op": "add",
+        "path": "/client/behaviors/4/quantitySlots",
+        "value": 10,
+        "file": "game:entities/land/drifter.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/9/quantitySlots",
+        "value": 10,
+        "file": "game:entities/land/drifter.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/9/dropsByType/*-double-headed/3",
+        "value": { "type": "item", "code": "temporalstone:temporalstone", "quantity": { "avg": 1.25, "var": 0.25 } },
+        "file": "game:entities/land/drifter.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/9/dropsByType/*-nightmare/3",
+        "value": { "type": "item", "code": "temporalstone:temporalstone", "quantity": { "avg": 0.5, "var": 0.5 } },
+        "file": "game:entities/land/drifter.json"
+    },
+    {
+        "op": "add",
+        "path": "/dropsByType/locust-corrupt-sawblade/0",
+        "value": { "type": "item", "code": "temporalstone:temporalstone", "quantity": { "avg": 0.5, "var": 0.5 } },
+        "file": "game:entities/land/locust.json"
+    }
+]
